@@ -7,7 +7,7 @@
 }
 
 :root {
-  --dark-color: #000;
+  --dark-color: #f70071;
 }
 
 body {
@@ -1371,3 +1371,20 @@ body {
   -webkit-animation-play-state: paused !important;
           animation-play-state: paused !important;
 }/*# sourceMappingURL=main.css.map */
+
+.message {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 10px 0;
+}
+
+.message:first-of-type {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.message.small {
+  font-size: 18px;
+  color: #ffcc00;
+  margin-top: 80px;   /* 🔥 aumenta la separación */
+}
